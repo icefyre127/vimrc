@@ -18,3 +18,4 @@ set autoindent
 set smartindent
 noremap <alt-j> <c-d>
 noremap <alt-k> <c-u>
+set visualbell
