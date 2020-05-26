@@ -3,7 +3,7 @@ set hidden
 let mapleader = ","
 noremap j gj
 noremap k gk
-set background="dark"
+"set background="dark"
 map <leader>ev :vsplit $MYVIMRC<cr>
 noremap <c-Tab> gt
 vnoremap > >gv 
@@ -19,3 +19,10 @@ set smartindent
 noremap <alt-j> <c-d>
 noremap <alt-k> <c-u>
 set visualbell
+noremap <leader>c :%s/\.\s\([a-z]\)/. \U\1/g<cr>
+set linebreak
+set wrap
+set nohlsearch
+iabbrev cna can
+set noswapfile
+noremap <C-/> I# <C-O> 
