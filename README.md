@@ -1,3 +1,3 @@
-# MY vimrc file
+# My vimrc file
 
 Settings for text editor configuration
