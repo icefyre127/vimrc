@@ -32,3 +32,7 @@ set shiftwidth=3
 set expandtab
 set wildmenu
 set path+=**
+:command WQ wq
+:command Wq wq
+:command W w
+:command Q q
