@@ -1,6 +1,7 @@
 set number
 set hidden
 let mapleader = ","
+let g:netrw_sizestyle= "h"
 noremap j gj
 noremap k gk
 "set background="dark"
