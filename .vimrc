@@ -9,7 +9,6 @@ map <leader>ev :vsplit $MYVIMRC<cr>
 noremap <c-Tab> gt
 vnoremap > >gv 
 vnoremap < <gv 
-set tabstop=4
 noremap <leader>o Go
 map <leader>r ddp!!sh<CR><Esc>
 noremap <leader>e :Vexplore<cr>
